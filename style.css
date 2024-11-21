@@ -1,0 +1,1027 @@
+body {
+  direction: rtl;
+  font-family: IRANYekanWebFn;
+}
+:root {
+  --primary-color: #39ff14;
+  --Secondary-color: #30384d;
+  --Secondary-Light-color: #454c5f;
+  --Secondary-Dark-color: #272727;
+  --Secondary-Darker-color: #101010;
+  --icone-section2: #434a5a;
+  --gray-2-color: #757575;
+  --gray-3-color: #282828;
+  --section-4-color: #1b1b1b;
+  --red-section5-color: #94404066;
+  --gray-1-color: #d9d9d9;
+}
+.circle-background {
+  border-radius: 100%;
+}
+.rounded {
+  border-radius: 10px;
+}
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header {
+  background-color: var(--Secondary-Dark-color);
+}
+.header__section {
+  display: flex;
+  gap: 10px;
+  padding: 16px 0;
+  justify-content: flex-end;
+}
+
+.header__section__login {
+  width: 120px;
+  height: 48px;
+  background-color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 500;
+}
+.header__section__sign-up {
+  width: 120px;
+  height: 48px;
+  border: 1px solid var(--primary-color);
+  background-color: var(--Secondary-Dark-color);
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+}
+.introduction-section {
+  background-color: #101010;
+  height: 560px;
+}
+.introduction-section__introduction {
+  padding: 140px 0px 60px 0px;
+  position: relative;
+}
+.introduction-section__introduction__card {
+  width: 40%;
+  color: white;
+  position: absolute;
+  width: 509px;
+  top: 80px;
+  left: 801px;
+  right: 0;
+}
+.introduction-section__introduction__card-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 67.64px;
+}
+.introduction-section__introduction__card-content {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 50px 0;
+  color: var(--gray-1-color);
+}
+.introduction-section__introduction__card-button {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.introduction-section__introduction__card-button-chosen {
+  width: 309px;
+  height: 48px;
+  background-color: #434a5a;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+.introduction-section__introduction__card-button-send {
+  width: 170px;
+  height: 48px;
+  background-color: var(--primary-color);
+  color: black;
+}
+.introduction-section__introduction__img-container {
+  position: absolute;
+  left: 0;
+  top: 120px;
+}
+.competition-section {
+  background-color: var(--Secondary-Dark-color);
+  position: relative;
+  color: var(--gray-1-color);
+  height: 520px;
+}
+.competition-section__card {
+  background-color: var(--Secondary-color);
+  width: 380px;
+  height: 120px;
+  position: absolute;
+  top: 0px;
+  transform: translate(0, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  font-family: IRANYekanWebFn;
+  font-size: 24px;
+  font-weight: 700;
+}
+.competition-section__card-icon {
+  background-color: var(--icone-section2);
+  padding: 8px;
+}
+.competition-section__card.card1 {
+  left: 930px;
+}
+.competition-section__card.card2 {
+  left: 530px;
+}
+.competition-section__card.card3 {
+  left: 130px;
+}
+.competition-section__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 160px;
+  text-align: center;
+  color: white;
+}
+.competition-section__title-1 {
+  margin-bottom: 16px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: right;
+}
+.competition-section__title-2 {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.competition-section__line {
+  position: absolute;
+  top: 275px;
+  left: 335px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.competition-section__icone {
+  height: 48px;
+  display: inline-block;
+  background-color: var(--Secondary-Light-color);
+  padding: 8px;
+  position: absolute;
+  top: 275px;
+  transform: translate(0, -30%);
+}
+.competition-section__icone.icone-1 {
+  left: 1234px;
+}
+.competition-section__icone.icone-2 {
+  left: 935px;
+}
+.competition-section__icone.icone-3 {
+  left: 635px;
+}
+.competition-section__icone.icone-4 {
+  left: 335px;
+}
+.competition-section__content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  top: 295px;
+  width: 15%;
+  transform: translate(-70%, 50%);
+  color: white;
+}
+.competition-section__content .first {
+  margin-bottom: 10px;
+}
+.competition-section__content.content-1 {
+  left: 1234px;
+}
+.competition-section__content.content-2 {
+  left: 935px;
+}
+.competition-section__content.content-3 {
+  left: 635px;
+}
+.competition-section__content.content-4 {
+  left: 335px;
+}
+.gift-section__container-title {
+  background-color: var(--gray-2-color);
+}
+.gift-section__container-title__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px 0;
+  color: white;
+}
+.gift-section__container-title__title-1 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 8px;
+}
+.gift-section__container-title__title-1 span {
+  color: var(--primary-color);
+}
+.gift-section__container-title__title-2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+.gift-section .gift-card {
+  width: 581px;
+  height: 88px;
+  background-color: var(--Secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 8px;
+  position: absolute;
+  left: 130px;
+  font-family: IRANYekanWebFn;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  color: white;
+}
+.gift-section .gift-card div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.gift-section .gift-card div p span {
+  color: var(--primary-color);
+}
+.gift-section .gift-card div .icone-container {
+  background-color: var(--gray-3-color);
+  padding: 8px;
+}
+.gift-section__container-cards1 {
+  height: 210px;
+  background-color: var(--Secondary-Darker-color);
+  position: relative;
+  display: flex;
+}
+.gift-section__container-cards1__card1 {
+  top: 80px;
+}
+.gift-section__container-cards2 {
+  height: 250px;
+  background-color: var(--Secondary-Dark-color);
+  position: relative;
+}
+.gift-section__container-cards2__content-card {
+  position: absolute;
+  width: 30%;
+  top: 60px;
+  color: white;
+}
+.gift-section__container-cards2__content-card .title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.gift-section__container-cards2__content-card .content {
+  font-family: IRANYekanWebFn;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+.gift-section__container-cards2__content-card .content span {
+  color: var(--primary-color);
+}
+.gift-section__container-cards2__card2 {
+  top: 0;
+  transform: translate(0, -27%);
+}
+.gift-section__container-cards2__card3 {
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.gift-section__container-cards3 {
+  height: 210px;
+  background-color: var(--Secondary-Darker-color);
+  position: relative;
+}
+.gift-section__container-cards3__card4 {
+  top: 0px;
+  transform: translate(0, -75%);
+}
+.gift-section__container-cards3__card5 {
+  top: 50%;
+  transform: translate(0, -75%);
+}
+.members-section {
+  height: 910px;
+  background-color: var(--section-4-color);
+}
+.members-section__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0 40px 0;
+  color: white;
+}
+.members-section__title-title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.members-section__title-content {
+  font-family: IRANYekanWebFn;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: center;
+}
+.members-section__cards {
+  display: flex;
+  gap: 40px;
+  align-items: self-start;
+}
+.members-section__cards__master-card {
+  width: 381px;
+  height: 562px;
+  background-color: var(--Secondary-color);
+  position: relative;
+}
+
+.members-section__cards__master-card__img-container .title {
+  position: absolute;
+  left: 50%;
+  top: 45px;
+  transform: translate(-50%, 0);
+  color: white;
+  font-family: IRANYekanWebFn;
+  font-size: 20px;
+  font-weight: 700;
+}
+.members-section__cards__master-card__img-container .main {
+  position: absolute;
+  top: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.members-section__cards__master-card__img-container .unmain {
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.members-section__cards__master-card__img-container .profile {
+  position: absolute;
+  top: 140px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.members-section__cards__master-card__img-container .name {
+  position: absolute;
+  top: 275px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+.members-section__cards__master-card__box {
+  position: absolute;
+  top: 310px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  width: 342px;
+  height: 176px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.members-section__cards__master-card__box ul {
+  background-color: var(--section-4-color);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.members-section__cards__master-card__box ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: IRANYekanWebFn;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+}
+.members-section__cards__master-card__box ul li.mid {
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  padding: 20px 0;
+}
+.members-section__cards__master-card > span {
+  position: absolute;
+  top: 515px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: IRANYekanWebFn;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+.members-section__cards__master-card__box ul li span {
+  color: var(--primary-color);
+}
+.members-section__cards__another {
+  width: 799px;
+  height: 503px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+.members-section__cards__another-card.title {
+  background-color: var(--section-4-color);
+  justify-content: space-between;
+  width: 600px;
+  margin-right: 100px;
+}
+.members-section__cards__another-card {
+  width: 719px;
+  height: 62px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px 0 35px;
+  align-items: center;
+  background-color: var(--Secondary-color);
+  color: white;
+}
+.members-section__cards__another-card div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.members-section__cards__another-card .profile {
+  position: relative;
+}
+.members-section__cards__another-card > p span {
+  color: var(--primary-color);
+}
+.members-section__cards__another-card .profile .crown {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-20%, -50%);
+}
+.members-section__cards__another .icone-container {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.members-section__cards__another .icone-container img {
+  width: 100%;
+  height: 100%;
+}
+.members-section__cards__another .icone-container.wallet {
+  left: 710px;
+  bottom: -80px;
+}
+.members-section__cards__another .icone-container.dollar {
+  left: 470px;
+  bottom: -60px;
+}
+.members-section__cards__another .icone-container.box {
+  left: 230px;
+  bottom: -100px;
+  width: 64px;
+  height: 64px;
+}
+.vulnerability-section {
+  height: 2545px;
+}
+.vulnerability-section__title-container {
+  background-color: var(--gray-2-color);
+  color: white;
+}
+.vulnerability-section__title-container__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 144px;
+}
+.vulnerability-section__title-container__title p.title {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.vulnerability-section__title-container__title p.content {
+  font-size: 14px;
+  font-weight: 300;
+}
+.vulnerability-section__information-container {
+  background-color: var(--Secondary-Darker-color);
+  height: 1608px;
+  color: white;
+}
+.vulnerability-section__information-container__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px 0px;
+}
+.vulnerability-section__information-container__title p.title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.vulnerability-section__information-container__title p.content {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: center;
+}
+.vulnerability-section__information-container__title p.content span {
+  color: var(--primary-color);
+}
+.vulnerability-section__information-container__damane-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.vulnerability-section__information-container__damane-cards__title {
+  background-color: var(--gray-3-color);
+  width: 380px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.vulnerability-section__information-container__damane-cards__content {
+  background-color: var(--gray-3-color);
+  width: 1180px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 20px;
+}
+.vulnerability-section__information-container__damane-cards__content ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 50%;
+}
+.vulnerability-section__information-container__damane-cards__content ul li {
+  width: 360px;
+  height: 40px;
+  top: 3411px;
+  left: 540px;
+  background-color: var(--Secondary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.vulnerability-section__information-container__mahdodiat-cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.vulnerability-section__information-container__mahdodiat-cards__title {
+  width: 380px;
+  height: 56px;
+  background-color: var(--gray-3-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.vulnerability-section__information-container__mahdodiat-cards__content {
+  width: 1180px;
+  height: 260px;
+  background-color: var(--gray-3-color);
+  padding: 20px 25px;
+}
+.vulnerability-section__information-container__mahdodiat-cards__content ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 25%;
+}
+.vulnerability-section__information-container__mahdodiat-cards__content ul li {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--Secondary-color);
+  padding: 10px 85px;
+}
+.vulnerability-section__information-container__asib-cards {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.vulnerability-section__information-container__asib-cards__title {
+  background-color: var(--gray-3-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 380px;
+  height: 56px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.vulnerability-section__information-container__asib-cards__content {
+  background-color: var(--gray-3-color);
+  width: 1180px;
+  height: 504px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  font-size: 14px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.vulnerability-section__information-container__asib-cards__content__parts {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 195px 20px 195px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22.55px;
+  position: relative;
+  color: var(--gray-2-color);
+  margin: 0 30px;
+  border-bottom: 1px solid white;
+  margin-bottom: 10px;
+}
+.vulnerability-section__information-container__asib-cards__content__parts
+  span.neshanshode {
+  color: white;
+}
+.vulnerability-section__information-container__asib-cards__content__parts img {
+  position: absolute;
+  bottom: 0;
+  left: 340px;
+}
+.vulnerability-section__information-container__asib-cards__content ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+.vulnerability-section__information-container__asib-cards__content ul li {
+  background-color: var(--Secondary-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.vulnerability-section__information-container__asib-cards__content .three-2 {
+  display: flex;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .three-2
+  .first {
+  width: 299px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .three-2
+  .second {
+  width: 471px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .three-2
+  .third {
+  width: 330px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content .four-3-1 {
+  display: flex;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-1
+  .first {
+  width: 385px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-1
+  .second {
+  width: 203px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-1
+  .third {
+  width: 341px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-1
+  .fourth {
+  width: 161px;
+}
+.vulnerability-section__information-container__asib-cards__content .four-3-2 {
+  display: flex;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-2
+  .first {
+  width: 202px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-2
+  .second {
+  width: 260px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-2
+  .third {
+  width: 295px;
+  height: 40px;
+}
+.vulnerability-section__information-container__asib-cards__content
+  .four-3-2
+  .fourth {
+  width: 333px;
+  height: 40px;
+}
+.vulnerability-section__information-container__gozaresh-card {
+  width: 1180px;
+  height: 87px;
+  background-color: var(--Secondary-Light-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+}
+.vulnerability-section__information-container__gozaresh-card span {
+  color: var(--primary-color);
+}
+.vulnerability-section__information2-container {
+  height: 425px;
+  background-color: var(--section-4-color);
+}
+.vulnerability-section__information2-container .container {
+  position: relative;
+  color: white;
+  height: 100%;
+}
+.vulnerability-section__information2-container .title {
+  position: absolute;
+  left: 285px;
+  transform: translateX(10%);
+  top: 135px;
+  font-size: 36px;
+  font-weight: 700;
+}
+.vulnerability-section__information2-container .title span {
+  color: var(--red-section5-color);
+}
+.vulnerability-section__information2-container .stop {
+  position: absolute;
+  left: 558px;
+  top: 135px;
+  transform: translate(-10%, -30%);
+}
+.vulnerability-section__information2-container__cards {
+  background-color: var(--Secondary-Darker-color);
+  border: 1px solid var(--red-section5-color);
+  width: 1180px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: absolute;
+  top: 100%;
+  transform: translateY(-50%);
+}
+.vulnerability-section__information2-container__cards ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+}
+.vulnerability-section__information2-container__cards ul li {
+  background-color: var(--red-section5-color);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+.vulnerability-section__information2-container__cards .three-2 {
+  display: flex;
+}
+.vulnerability-section__information2-container__cards .three-2 .first {
+  width: 299px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .three-2 .second {
+  width: 471px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .three-2 .third {
+  width: 330px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-1 {
+  display: flex;
+}
+.vulnerability-section__information2-container__cards .four-3-1 .first {
+  width: 385px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-1 .second {
+  width: 203px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-1 .third {
+  width: 341px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-1 .fourth {
+  width: 161px;
+}
+.vulnerability-section__information2-container__cards .four-3-2 {
+  display: flex;
+}
+.vulnerability-section__information2-container__cards .four-3-2 .first {
+  width: 202px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-2 .second {
+  width: 260px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-2 .third {
+  width: 295px;
+  height: 40px;
+}
+.vulnerability-section__information2-container__cards .four-3-2 .fourth {
+  width: 333px;
+  height: 40px;
+}
+.vulnerability-section__continue {
+  background-color: var(--Secondary-Darker-color);
+  height: 400px;
+}
+.rules-section {
+  background-color: var(--Secondary-Darker-color);
+  color: var(--gray-1-color);
+}
+.rules-section__title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.rules-section__title .title {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: white;
+}
+.rules-section__title .content {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 19.73px;
+}
+.rules-section__title .content span {
+  color: var(--primary-color);
+}
+.rules-section__content {
+  position: relative;
+  margin: 0 170px 100px 170px;
+  display: flex;
+  justify-content: flex-start;
+}
+.rules-section__content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.rules-section__content ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.rules-section__content ul li p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.55px;
+  text-align: right;
+}
+.rules-section__content > img {
+  position: absolute;
+  top: 0;
+  left: 435px;
+  transform: translateX(-55%);
+}
+.report-section {
+  height: 520px;
+  background-color: var(--gray-3-color);
+  color: var(--gray-1-color);
+}
+.report-section__title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 60px 170px 40px 170px;
+}
+.report-section__title .title {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 16px;
+}
+.report-section__title .content {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.report-section__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 170px 0 0;
+}
+.report-section__content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.report-section__content ul li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.footer {
+  background-color: var(--Secondary-Light-color);
+  color: var(--gray-1-color);
+}
+.footer__columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 60px 170px 60px 170px;
+  height: 100%;
+}
+.footer__columns ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+.footer__columns ul li {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.73px;
+}
+.footer__columns ul > span {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
